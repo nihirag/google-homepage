@@ -49,7 +49,7 @@ font: 13px arial,sans-serif;
     width: 272px;
     padding: 109px 0 0 ;
 }
-.googleLogo > input
+input
 {
     width: 554px;
     border:none ;
@@ -61,24 +61,28 @@ font: 13px arial,sans-serif;
     font: 15px arial,sans-serif;    
     outline: none;  
 }
-.googleLogo > input:hover
+input:hover
 {
     border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
 }
 
-.googleLogo > input:focus 
+input:focus 
 {
     border-color: #4d90fe;
 }
-.googleLogo > input:focus ~ span
+input:focus ~ span
 {
     display: none;
+}
+.inputbar
+{
+    position: relative;
 }
 span
 {
     position: absolute;
-    top: 307px;
-    left: 900px;
+    top:28px;
+    left: 565px;
     cursor: pointer;
 
 }
